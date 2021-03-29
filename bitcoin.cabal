@@ -1,0 +1,30 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.33.0.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: b1f1a29dc1a2f6ae31bad459c9c5db42d09924b1eec3ec9997c274ff285ec25a
+
+name:           bitcoin
+version:        0.1.0.0
+category:       Web
+homepage:       https://github.com/githubuser/bitcoin#readme
+author:         Author name here
+maintainer:     example@example.com
+copyright:      2021 Author name here
+license:        BSD3
+license-file:   LICENSE
+build-type:     Simple
+extra-source-files:
+    README.md
+
+executable bitcoin
+  main-is: Main.hs
+  other-modules:
+      Paths_bitcoin
+  hs-source-dirs:
+      src
+  build-depends:
+      base >=4.7 && <5
+  default-language: Haskell2010
