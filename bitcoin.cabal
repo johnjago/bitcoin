@@ -4,16 +4,13 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: d0b4a239fe22d71304ef51669e674f1458cbeab756d23d2f907670ccf5cdc451
+-- hash: ed633a72f457db861fe19a985c9a1f0e6007a40b628e79491baf1b026a77ec2c
 
 name:           bitcoin
-version:        0.1.0.0
+version:        0.1.1.0
 category:       Web
-homepage:       https://github.com/githubuser/bitcoin#readme
-author:         Author name here
-maintainer:     example@example.com
-copyright:      2021 Author name here
-license:        BSD3
+homepage:       https://github.com/johnjago/bitcoin#readme
+license:        MIT
 license-file:   LICENSE
 build-type:     Simple
 extra-source-files:
